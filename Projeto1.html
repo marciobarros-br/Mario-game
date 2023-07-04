@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa Gamer</title>
+  <link rel="stylesheet" href="Projeto1.css">
+  <style>
+    @font-face {
+      font-family: "Avengers"; 
+      src: url("../AVENGEANCE_HEROIC_AVENGER_AT.otf") format("opentype");
+    }
+    h1{
+      font-family: "Avengers";
+    }
+  </style>
+</head>
+<body>
+  <h1 id="title">Ezi Gamer Form</h1>
+  <p id="description">Obrigado por dedicar seu tempo para melhorar nossa comunidade gamer</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Nome:<input placeholder="Digite seu nome" required id="name" type="text"></label>
+      <label id="email-label" for="email">Email:<input placeholder="Digite seu email" required id="email" type="email"></label>
+      <label class="age" id="number-label" for="number">Idade:<input placeholder="Insira sua idade" min="13" max="120" required id="number" type="number"></label>
+      <label>Qual jogo mais te tilta?
+        <select id="dropdown">
+          <option value="">Escolha um</option>
+          <option value="1">LOL</option>
+          <option value="2">Valorant</option>
+          <option value="3">Runeterra</option>
+          <option value="4">TFT</option>
+          <option value="5">Transformice</option>
+          <option value="6">Roblox</option>
+          <option value="7">Ange of Mitology</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <h2><img class="icon" src="../Formulário gamer Ezi/Images/valorant.jpg"> Valorant</h2>
+      <label>Qual seu elo atual?<br><input type="radio" value="1" name="rank">Ferro</label>
+      <label><input type="radio" value="2" name="rank">Bronze</label>
+      <label><input type="radio" value="3" name="rank">Prata</label>
+      <label><input type="radio" value="4" name="rank">Ouro</label>
+      <label><input type="radio" value="5" name="rank">Menti</label>
+    </fieldset>
+    <fieldset class="amigos">
+      <label>Quais são os maiores responsáveis pelo seu elo atual?</label>
+      <label for="lefeshelly">
+        <input id="lefeshelly" type="checkbox" value="1">Lefeshelly<br>
+        <img src="../Formulário gamer Ezi/Images/lefeshelly.jpeg">
+      </label>
+      <label for="grilo">
+        <input id="grilo" type="checkbox" value="2">Grilo<br>
+        <img src="../Formulário gamer Ezi/Images/grilo.jpeg">
+      </label>
+      <label for="penca">
+        <input id="penca" type="checkbox" value="3">Penca<br>
+        <img src="../Formulário gamer Ezi/Images/penca.jpg">
+      </label>
+      <label for="crocs">
+        <input id="crocs" type="checkbox" value="4">Crocs<br>
+        <img src="../Formulário gamer Ezi/Images/crocs.jpg">
+      </label>
+      <label for="dilamo">
+        <input id="dilamo" type="checkbox" value="5">Dilamo<br>
+        <img src="../Formulário gamer Ezi/Images/dilamo.jpeg">
+      </label>
+      <label for="josens">
+        <input id="josens" type="checkbox" value="6">Josens<br>
+        <img src="../Formulário gamer Ezi/Images/josens.jpeg">
+      </label>
+      <label for="neytan">
+        <input id="neytan" type="checkbox" value="7">Neytan<br>
+        <img src="../Formulário gamer Ezi/Images/neytan.jpeg">
+      </label>
+      <label for="marceus">
+        <input id="marceus" type="checkbox" value="8">Marceus (The King)<br>
+        <img src="../Formulário gamer Ezi/Images/marceus.jpeg">
+      </label>
+      <label for="mikael">
+        <input id="mikael" type="checkbox" value="9">Mikael<br>
+        <img src="../Formulário gamer Ezi/Images/mikael.jpg">
+      </label>
+    </fieldset>
+    <fieldset>
+      <textarea rows="3" cols="50" placeholder="Comentários e reclamações adicionais sobre seus companheiros de equipe"></textarea>
+    </fieldset>
+    <input type="submit" id="submit">
+  </form>
+</body>
+</html>
