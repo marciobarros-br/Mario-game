@@ -51,6 +51,7 @@ body{
 img{
     width: 30%;
     height: 30%;
+    object-fit: cover;
 }
 .age input{
   min-width: 35%;
