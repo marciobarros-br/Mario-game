@@ -13,6 +13,13 @@ body{
     padding: 0.5rem ;
     border: 3px solid #3b3b4f;
   }
+  @font-face {
+    font-family: "Avengers"; 
+    src: url("AVENGEANCE_HEROIC_AVENGER_AT.otf") format("opentype");
+  }
+  h1{
+    font-family: "Avengers";
+  }
   h1, p{
     margin: 0.5em auto;
     text-align: center;
@@ -26,7 +33,7 @@ body{
   form{
     width: 60vw;
     max-width: 400px;
-    min-width: 300px;
+    min-width: 400px;
     margin: 0 auto;
     padding-bottom: 2em;
   }
@@ -45,12 +52,9 @@ body{
     border-color: rgb(240, 230, 210);
     min-width: 300px;
   }
-  .check-image label > input + i {
-    display:inline-block;
-  }
+
 img{
     width: 30%;
-    height: 30%;
     object-fit: cover;
 }
 .age input{
@@ -60,5 +64,10 @@ h2{
   margin: auto;
 }
 .icon{
-  width: 7%;
+  width:7%;
+
+}
+.imgfooter {
+  margin: 10px;
+  width: 40%;
 }
